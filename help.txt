@@ -1,0 +1,72 @@
+NodeJS Express API with MongoDB and JWT authentication
+
+Code generator kind of Scafolding 
+
+https://www.npmjs.com/package/generator-node-express-typescript-api
+npm install -g yo
+npm install -g generator-node-express-typescript-api
+
+yo node-express-typescript-api
+typeScriptAPIDemo
+sudo npm install -g nodemon --save
+sudo npm install -g ts-node --save 
+sudo npm install -g typescript -- save
+sudo npm install
+
+MongoDB Connection
+MongoDB Atlas
+You can purchase or get the free version from Atlas
+https://www.mongodb.com/
+
+Get the mongodb URL and replace into .env file. 
+Get the password for the database from Atlas.
+
+So the current goal save the effort about 60%
+jFXPLQbx8ASPKo89
+mongodb+srv://Admin:jFXPLQbx8ASPKo89@cluster0.ikhnoxm.mongodb.net/?retryWrites=true&w=majority
+To run this project - 
+nodemon
+
+Expore the App using 
+http://localhost:3000/docs/
+
+We need to change Bearer Values to make API working.
+Okay So we have to change values in Middleware.
+
+So these were the changes.
+Now Get All is working.
+
+Okay. So Database Table schema changed. 
+Now. We need to change validation and remove users related info from categories.
+
+remove to resolve write concern. 
+&w=majority
+
+Tutorial 
+SignIn
+SignUp 
+
+
+Categories 
+- Find and replace to Componnats folder.
+- Find and replace into routes.
+- Declare router in index.ts
+- Declare/Export Component in index.ts
+
+Save the Swagger Json Again 
+swagger-jsdoc -d swaggerDef.js ./src/**/*.ts -o swagger.json
+
+Prepare Postman 
+- environment for this project 
+    -API URL
+    -version
+    -token
+
+
+
+
+This generated Code
+User - CRUD 
+Categories - CRUD
+Test this in Postman
+Products - You have to create it. Thank you.
